@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather app</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div class="container">
+        <div class="app-title">
+            <p>weather info</p>
+            <input
+            id="search"
+            type="text"
+            placeholder="enter the city"
+            autocomplete="off"/>
+
+            <div class="location-icon">
+                <img src="icon/placeholder.png" alt="" >
+            </div>
+        </div>
+        <div class="notification"></div>
+        <div class="weather-container"> </div>
+        <div class="weather-icon">
+            <img src="icon/weather.png" alt="" srcset="">
+        </div>
+    
+        <div class="tempreture-value">
+            <p>- *<span>C</span></p>
+        </div>
+        <div class="tempreture-description">
+            <p>-</p>
+        </div>
+        <div class="location">
+            <p>--</p>
+        </div>
+    
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
